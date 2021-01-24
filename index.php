@@ -24,7 +24,6 @@
  	<td><?php echo $row['name']; ?></td>
  	<td><?php echo $row['username']; ?></td>
  	<td><?php echo $row['joined']; ?></td>
- 	<td><?php echo $row['userID']; ?></td>
  	<td><a href="update.php?id=<?php echo $row['userID']; ?>"><button class="button">Update</button></a></td>
  	<td><a href="delete.php?id=<?php echo $row['userID']; ?>"><button class="button">Delete</button></a></td>
  </tr>
